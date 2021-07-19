@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>テストページ</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+           <style>
+      .top-banner{
+	display: flex;
+	flex-wrap:wrap;
+}
+.top-banner li {
+	width: calc(100%/4);
+	padding:0 5px;
+	box-sizing:border-box;
+}
+.top-banner li img {
+	max-width:100%; 
+	height: auto; 
+	border:solid 1px #ccc; 
+}
+    </style>
+  </head>
+  <body>
+   <body>
+<h1>検索テスト</h1>
+ <form method="get" action="http://www.google.co.jp/search" target="_blank">
+  <input type="text" name="q" size="31" maxlength="255" value="">
+  <input type="submit" name="btng" value="Google検索"> 
+  <input type="hidden" name="hl" value="ja">
+  <input type="hidden" name="sitesearch" value="">
+ </form>
+</body>
+<br></br>
+<hr>
+<body>
+<h1>ボタンテスト</h1>
+<script>
+ <!--
+function showMsg(){
+  var hiduke=new Date(); 
+ var num1 = hiduke.getFullYear();
+ var num2 = hiduke.getMonth()+1;
+ var num3 = hiduke.getDay();
+alert('番号：'+ num1 + num2 + num3);
+}
+//-->
+</SCRIPT>
+　　　 <font color="blue">
+　 そこまでランダムでもない数字を出現
+　　　 </font>
+<form>
+<input type="button" value="押すな" onClick="showMsg()">
+</form>
+
+<br></br>
+<hr>
+</body>
+<body>
+<h1>記入テスト</h1>
+<button type="button" onclick="ShowAlart()">ここをクリックしますかぁ？
+ </button>
+<script>
+   function ShowAlart() {
+var result = prompt("番号を入力してください");
+console.log(result);
+}
+</script>
+</body>
+ <body>
+    <meta charset = "utf-8">
+    <title>JavaScriptの練習</title>
+  </body>
+  <body>
+    <script>
+      var name = prompt("入力テスト");
+      document.write(name);
+    </script>
+  </body>
+  <br></br>
+  <font color="blue">文字の色を変えたかった。</font>
+  <body>
+    <hr>
+     <h1 style="text-align:center">文字中央寄せ</h1>
+     <br></br>
+  </body>
+ <ul class="top-banner">
+<li><img src="https://drive.google.com/file/d/114YcIRCSxJmuJYDv3VXT2E05rK9DHUsM/view?usp=sharing" alt="   ">   </a></li>
+<li><a href="   "target="_blank"><img src="   " alt="   ">   </a></li>
+<li><a href="   "target="_blank"><img src="   " alt="   ">   </a></li>
+</ul>
+</html>
